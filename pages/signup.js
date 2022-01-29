@@ -56,6 +56,7 @@ const SignUp = () => {
 
   const onSubmit = async (data) => {
     console.log(data);
+    // fetchなどでPOST処理をdata.name, data.email, data.passwordを送信
   };
 
   return (
